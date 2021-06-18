@@ -1,0 +1,47 @@
+body {
+  color: #0d1137;
+  background-color: #b8c599;
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+legend {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.fcontainer {
+  display: flex;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-around;
+  border-color: #0d1137;
+}
+.ceo {
+  font-weight: normal;
+  margin-top: 0px;
+}
+.pp {
+  width: 45%;
+  padding-left: 30px;
+  font-size: large;
+}
+.workexp {
+  width: 45%;
+  font-size: large;
+}
+.workexpunder {
+  margin-bottom: 25%;
+}
+.specialh3 {
+  font-weight: normal;
+}
+hr {
+  border-color: #0d1137;
+}
