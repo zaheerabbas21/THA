@@ -50,4 +50,5 @@ body {
 
 .blocked:hover {
   background-color: red;
+  cursor: pointer;
 }
