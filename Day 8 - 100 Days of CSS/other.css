@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.square {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  /* 	  grid-gap: 0.8px; */
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  background-color: #e24e3f;
+  border: 0.1px solid rgb(253, 62, 46);
+}
+
+.changeColor {
+  background-color: rgb(255, 255, 255);
+  border: 0.1px solid white;
+}
+
+.box:hover {
+  cursor: pointer;
+  background-color: rgb(255, 94, 88);
+  border: 0.1px solid rgb(255, 94, 88);
+}
+
+.changeColor:hover {
+  background-color: rgb(255, 255, 255);
+  border: 0.1px solid white;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  width: 400px;
+  height: 400px;
+  margin: 10vh auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+}
+
+.red {
+  background-color: #e24e3f;
+  border: 0.1px solid rgb(253, 62, 46);
+}
+
+.white {
+  background-color: #fff;
+  border: 0;
+}
