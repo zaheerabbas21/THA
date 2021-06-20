@@ -8,11 +8,13 @@ function myFunction(object) {
   return text;
 }
 myFunction({ name: "David Rayy", sclass: "VI", rollno: 12 });
+
 //   second question
 function deleterollno(object) {
   delete object.rollno;
 }
 deleterollno({ name: "David Rayy", sclass: "VI", rollno: 12 });
+
 // third question
 function myFunction(object) {
   var text = 0;
@@ -22,6 +24,7 @@ function myFunction(object) {
   return text;
 }
 myFunction({ name: "David Rayy", sclass: "VI", rollno: 12 });
+
 //   fourth question
 function myFunction(object) {
   //   console.log(object)
