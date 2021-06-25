@@ -21,7 +21,12 @@ body {
 .seat-info p {
   margin: 0 8em 2em 8em;
   font-size: 1.4rem;
+  color: rgb(123, 123, 146);
   font-weight: bolder;
+}
+
+.seat-info p span {
+  color: rgb(127, 184, 105);
 }
 
 .seats {

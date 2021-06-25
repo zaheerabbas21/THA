@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 23%;
+  background-color: rgb(178, 141, 212);
+  color: rgb(60, 8, 85);
+  padding: 3em;
+  margin: 0.5em;
+  border-radius: 1em;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
