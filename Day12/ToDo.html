@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/add.svg">
+    <link rel="stylesheet" type="text/css" href="./ToDo.css">
+    <title>To do List</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class=headers>
+        <h1> To-Do List</h1>
+    </header>
+    <hr>
+
+
+    <div class="grid">
+
+        <!-- Input Box and Button -->
+        <div class="input-button">
+            <div id="inputArea">
+                <input id="userInput" type="text" placeholder="Add Input Item">
+                <button class="addButton" id="addButtonId">
+                    <img width=20px src="./images/add.svg" alt="Add icon">
+                </button>
+            </div>
+        </div>
+
+        <!-- List Items -->
+        <div class="main-list">
+            <ul id="taskList">
+                <h2 class="empty-list">Empty List</h2>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="./ToDo.js"></script>
+</body>
+
+</html>
