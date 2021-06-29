@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(190, 233, 148, 0.5);
+}
+
+.container {
+  width: 80%;
+  margin: 4em auto;
+}
+
+.meme-card {
+  background: rgba(190, 233, 148, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#meme {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  color: green;
+}
+
+#next-meme {
+  border: none;
+  background-color: rgba(26, 128, 43, 0.5);
+  color: white;
+  padding: 1.2em 2.5em;
+  margin: 2em;
+  cursor: pointer;
+}
