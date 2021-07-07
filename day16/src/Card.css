@@ -1,0 +1,20 @@
+body {
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.card {
+  width: 320px;
+  background-color: white;
+  box-shadow: 3px 5px 6px -2px #000, -6px -7px 6px -2px #ecdede;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.img-container {
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+}
