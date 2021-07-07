@@ -1,0 +1,18 @@
+.calorie-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.calorie-heading {
+  text-align: center;
+}
+
+.food-container {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 2px 3px 9px -1px #000;
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 500px;
+}
