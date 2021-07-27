@@ -1,0 +1,1 @@
+export const MAIL_CHANGED = 'MAIL_CHANGED';
