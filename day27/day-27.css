@@ -1,0 +1,59 @@
+.day27 {
+  height: 110vh;
+  background-color: #232323;
+  color: #ffeda3;
+  text-align: center;
+}
+
+.day27 h1 {
+  padding-top: 2rem;
+  font-size: 40px;
+}
+
+.day27 h3 {
+  padding: 1rem;
+}
+
+.day27 .add-todo input,
+.day27 .add-todo button {
+  padding: 8px 10px;
+  margin-left: 1rem;
+}
+
+.day27 .todolist__container {
+  width: 50%;
+  height: 280px;
+  overflow-y: auto;
+  margin: 1rem auto 0;
+  padding: 1rem 2rem;
+  border-radius: 21px;
+  background-color: #2940d3;
+}
+
+.day27 .todolist__item {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day27 .edit__component {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day27 .edit__input__container {
+  width: 50%;
+}
+
+.day27 .todolist__item h5 {
+  width: 50%;
+  margin: 0;
+}
+
+.day27 .todolist__container button {
+  padding: 8px 10px;
+  margin-left: 1rem;
+}
