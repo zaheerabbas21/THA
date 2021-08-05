@@ -1,0 +1,64 @@
+.weatherapp {
+  border: 2px solid;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fa8072;
+  box-shadow: 0 8px 32px 0 #ffdab9;
+  color: white;
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.box .input {
+  margin-top: 10px;
+  height: 40px;
+}
+
+.input input {
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.info img {
+  width: 100px;
+  height: 80px;
+  position: relative;
+  top: 15px;
+}
+
+.info h4 {
+  margin-top: 1px;
+  font-size: 18px;
+}
+
+.location {
+  font-size: 28px;
+  position: relative;
+  top: 20px;
+}
+
+i h3 {
+  text-transform: uppercase;
+}
