@@ -5,9 +5,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fa8072;
-  box-shadow: 0 8px 32px 0 #ffdab9;
-  color: white;
+  background-color: #e0d5d4;
+  box-shadow: 0 8px 32px 0 #dad5d0;
+  color: rgb(102, 93, 93);
   backdrop-filter: blur(13.5px);
   -webkit-backdrop-filter: blur(13.5px);
   border-radius: 10px;
