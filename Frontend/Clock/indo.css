@@ -1,0 +1,86 @@
+div {
+  width: 37.2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #2f5d62;
+}
+.circle {
+  width: 450px;
+  height: 450px;
+  border: 25px solid #5e8b7e;
+  border-radius: 50%;
+  margin: 80px auto 50px auto;
+  background-color: #a7c4bc;
+  position: relative;
+  box-shadow: 1px 1px 30px 15px #5e8b7e;
+  /* box-shadow: #C7C7C7; */
+  /* border-image-source: linear-gradient(yellow,red); */
+}
+.second,
+.hour,
+.minute {
+  width: 45%;
+  height: 5px;
+  border-top: 10px solid #dfeeea;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 50% 50% 0% 0%;
+  position: absolute;
+}
+.second {
+  left: 50%;
+  top: 47%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  animation: sec_anim 60s linear infinite;
+}
+.minute {
+  left: 50%;
+  top: 47%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  animation: minute_anim 3600s linear infinte;
+}
+.hour {
+  left: 50%;
+  top: 47%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  animation: hour_anim 43200s linear infinite;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 47.8%;
+  top: 48.3%;
+  background-color: black;
+  border-radius: 50%;
+}
+@keyframes sec_anim {
+  from {
+    transfrom: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes minute_anim {
+  from {
+    transfrom: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes hour_anim {
+  from {
+    transfrom: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 5em auto 0 auto;
+}
+
+.outer-circle {
+  background-color: red;
+  border-radius: 50%;
+  /* box-shadow: 10px 10px 5px rgb(122, 120, 120); */
+  border: 5px solid rgb(206, 201, 201);
+}
+
+.inner-circle {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 50%;
+  margin: 10% auto;
+  border: 5px solid rgb(228, 223, 223);
+}
+
+.hour {
+  width: 3px;
+  height: 100px;
+  margin: 0 auto;
+  transform: translateY(200%);
+  background-color: black;
+}
+
+.minute {
+  width: 3px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+hr {
+  height: 100px;
+  width: 3px;
+  background-color: black;
+}
+
+.hour-hand {
+  transform: translate(-60px, 200px) skew(-40deg);
+  background-color: black;
+}
+
+.minute-hand {
+  transform: translate(-10px, 92px) skew(10deg);
+  background-color: black;
+}
+
+.second-hand {
+  transform: translate(25px, -15px) skew(40deg);
+  background-color: black;
+}
