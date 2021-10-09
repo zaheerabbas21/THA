@@ -1,0 +1,13 @@
+# Always Ask 3 question to client.
+- % of Security.
+- Traffic per second.
+- How You wanted to make the website.
+
+# If total Users = 1K && active = 100/200 then we use WordPress, php not react / node.
+As it's costly than php.
+
+# In highly scalable we use react / node.
+
+# If a web is serving 1L active users then only we suggests to use node / react if more more are their then highly used is golang.
+
+# Always no. of API calls must be less from FE so we try to make less api's. 
